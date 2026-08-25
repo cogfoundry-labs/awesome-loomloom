@@ -1,0 +1,63 @@
+name: Add a community project
+description: Propose a project, template, integration, or learning resource for the directory.
+title: "[Add]: "
+labels: ["new listing"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for proposing an entry. Please read CONTRIBUTING.md before submitting."
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [Applications, Clients and SDKs, Integrations, Templates and SkillBots, Starters and Examples, Learning]
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical public URL
+      placeholder: https://github.com/example/project
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-sentence description
+    validations:
+      required: true
+  - type: dropdown
+    id: provenance
+    attributes:
+      label: Provenance
+      options: [Community, Experimental, Official]
+    validations:
+      required: true
+  - type: input
+    id: compatibility
+    attributes:
+      label: LoomLoom compatibility
+      placeholder: v0.4+ or Not stated by maintainer
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: Project license
+      placeholder: MIT or License not stated
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Maintenance status
+      options: [Active, Maintenance, Archived, Unknown]
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence of LoomLoom use
+      description: Link to documentation, source code, or a maintainer statement.
+    validations:
+      required: true

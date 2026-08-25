@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: LoomLoom product and support
+    url: https://github.com/cogfoundry-labs/loomloom
+    about: Use the LoomLoom repository for product issues and official support.
