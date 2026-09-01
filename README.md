@@ -18,7 +18,7 @@ Awesome LoomLoom is a community directory. It helps people discover work built *
 
 Community-built web, desktop, and domain applications powered by LoomLoom.
 
-_No projects listed yet. [Add the first one](CONTRIBUTING.md)._
+- [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — An open-source AI short-video generator with an optional LoomLoom Market SkillBot backend for script generation. `Community` · Compatibility: `Not stated by maintainer` · License: `MIT` · Status: `Active`
 
 ## Clients and SDKs
 
