@@ -36,7 +36,7 @@ _No projects listed yet. [Add the first one](CONTRIBUTING.md)._
 
 Reusable LoomLoom templates and SkillBots that document their compatibility, dependencies, and expected usage costs.
 
-_No projects listed yet. [Add the first one](CONTRIBUTING.md)._
+- [LoomLoom × Buffett 4-Pillar US Equity Screener](https://github.com/gold3bear/loomloom-buffett-screener) — Open-source SkillBot that screens US equities on Buffett's 4 pillars (business, moat, financial quality, margin of safety) with byte-verified SEC EDGAR / IR evidence and hard veto gates. `Community` · Compatibility: `v0.4.5+` · License: `MIT` · Status: `Active`. Required: SEC EDGAR (free) + OpenAI API (~$0.18/ticker) or hosted on CogFoundry ($0.10/task). Research aid only — not investment advice.
 
 ## Starters and Examples
 
